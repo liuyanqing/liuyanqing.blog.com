@@ -4,7 +4,7 @@ email: 18679856929@163.com
 description: > # this means to ignore newlines until "baseurl:"
   刘彦青的博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://liuyanqing.githup.io # the base hostname & protocol for your site
+url: https://liuyanqing.github.io # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 author: Liu Yanqing
 # Sidebar filter
@@ -13,12 +13,9 @@ filter: 'category'
 recent_num: 20
 
 # avatar and Favicon
-avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
-favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+avatar: /assets/img/avatar.png
 
-# disqus config
-disqus:
-  shortname: suyan-zh
+# favicon: 
 
 # google analytics config
 #ga:
@@ -27,6 +24,7 @@ disqus:
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
+encoding: utf-8
 markdown: kramdown
 highlighter: rouge
 mathjax: disabled
