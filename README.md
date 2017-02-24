@@ -1,6 +1,6 @@
 ### 我的博客
 
-地址：[http://liuyanqing.githup.io](http://liuyanqing.githup.io)
+地址：[https://liuyanqing.github.io](https://liuyanqing.github.io)
 
 ### 说明
 
