@@ -41,13 +41,12 @@
 
 
 #sidebar-social
-  padding: 0 $social-icon-outer-padding 3vh
+  padding: 3vh $social-icon-outer-padding
   text-align: center
 
 .sidebar-social-icon
   display: inline-block
   margin: 0 $social-icon-margin
-  font-size: $social-icon-size
   text-decoration: none
   color: $social-icon-color
   outline: none
@@ -57,11 +56,12 @@
 
   &:before
     @extend %icon
+    font-size: $social-icon-size
 
   &.feed:before
-    @extend %icon-rss
+    @extend %icon-feed
   &.email:before
-    @extend %icon-envelop
+    @extend %icon-email
   &.twitter:before
     @extend %icon-twitter
   &.weibo:before
@@ -91,10 +91,11 @@
   cursor: pointer
   &:hover
     color: $tag-hover-color
-    box-shadow: inset 6px 0 0 $toc-bg
+    box-shadow: inset 6px 0 0 $green
   &.active
     color: $tag-active-color
-    box-shadow: inset $sidebar-left-width 0 0 $toc-bg
+    background: $greyDark
+    box-shadow: inset 6px 0 0 $green
 
 
 // Sidebar Right
@@ -143,7 +144,6 @@
 #toc
   height: calc(100% - #{$search-box-height + 1})
   padding-top: 15px
-  background: $toc-bg
   overflow-y: auto
   -webkit-overflow-scrolling: touch
   &:after
@@ -177,9 +177,10 @@
     left: 12px
     z-index: 1
     @extend %icon
-    @extend %icon-chevron-right
-    font-size: $toc-bullet-size
+    @extend %icon-post-list
+    font-size: $toc-font-size
     color: $toc-bullet-unread
+    line-height: $toc-line-height
     transition: transform .15s linear
   &:visited:before
     color: $toc-bullet-read

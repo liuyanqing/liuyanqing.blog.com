@@ -9,16 +9,23 @@ $breakpoint-hide-sidebar: 1024px
 $breakpoint-mobile: 767px
 
 // # Font
-$font: 'Open Sans', 'Hiragino Sans GB', sans-serif
+$font: "Microsoft Yahei",Helvetica,arial
+
+// # color
+$greenLight: #f2f6f7
+$green: #58b471
+$greenDark: #45b331
+$grey: #474d57
+$greyDark: #2b3341
 
 // # Sidebar Background Gradient
 $gradient-start: #C2E987
 $gradient-end:   #309E85
 // $sidebar-bg: linear-gradient(136deg, $gradient-start, $gradient-end)
 
-$sidebar-bg: #474d57
-$sidebar-left-bg: #474d57
-$sidebar-right-bg: #f7f7f7
+$sidebar-bg: $grey
+$sidebar-left-bg: $grey
+$sidebar-right-bg: $greenLight
 
 // # Sidebar Left
 $sidebar-left-width: 120px
@@ -30,17 +37,17 @@ $avatar-border-color: rgba(255, 255, 255, .75)
 
 // Social icons
 $social-icon-outer-padding: 10px
-$social-icon-size: 18px
+$social-icon-size: 22px
 $social-icon-margin: 1px
 $social-icon-color: rgba(255, 255, 255, .6)
 $social-icon-hover-color: #FFF
 
 // Tags
 $tag-height: 40px
-$tag-font-size: 17px
+$tag-font-size: 16px
 $tag-color: rgba(255, 255, 255, .7)
 $tag-hover-color: rgba(255, 255, 255, .85)
-$tag-active-color: #000000
+$tag-active-color: $green
 $tag-border-color: rgba(255, 255, 255, 1)
 
 // # Sidebar Right
@@ -56,14 +63,13 @@ $search-box-bg: #f7f7f7
 
 // Toc
 $toc-color: #55606F
-$toc-bg: $tag-border-color
 
 $toc-font-size: 16px
-$toc-line-height: 22px
+$toc-line-height: 26px
 
 $toc-bullet-size: 18px
-$toc-bullet-unread: $gradient-end
-$toc-bullet-read: $toc-color
+$toc-bullet-unread: $grey
+$toc-bullet-read: $green
 
 // # Sidebar width
 $sidebar-width: $sidebar-left-width + $sidebar-right-width
