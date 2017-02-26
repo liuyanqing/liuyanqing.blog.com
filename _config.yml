@@ -15,7 +15,7 @@ recent_num: 20
 
 # avatar and Favicon
 avatar: /assets/img/avatar.png
-
+favicon: /assets/icon/favicon.ico
 
 # google analytics config
 #ga:

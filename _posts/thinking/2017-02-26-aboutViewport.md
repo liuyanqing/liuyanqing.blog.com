@@ -8,8 +8,8 @@ description: 关于Viewport
 
 # viewport
     viewport，实际上等于浏览器窗口
-## 一 设备像素 & CSS像素
 
+## 一 设备像素 & CSS像素
 `设备像素`:你所使用的各种设备都提供了正规的分辨率，并且其值可以（通常情况下）从screen.width/height属性中读出。
 `CSS像素`:是那些控制你的样式表如何渲染的像素。
 
