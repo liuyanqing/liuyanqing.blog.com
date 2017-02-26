@@ -15,6 +15,7 @@ $font: "Microsoft Yahei",Helvetica,arial
 $greenLight: #f2f6f7
 $green: #58b471
 $greenDark: #45b331
+$greyLight: #505e74
 $grey: #474d57
 $greyDark: #2b3341
 
@@ -48,17 +49,17 @@ $tag-font-size: 16px
 $tag-color: rgba(255, 255, 255, .7)
 $tag-hover-color: rgba(255, 255, 255, .85)
 $tag-active-color: $green
-$tag-border-color: rgba(255, 255, 255, 1)
+$tag-border-color: $greyLight
 
 // # Sidebar Right
 $sidebar-right-width: 360px
 
 // Search
 $search-box-height: 64px
-$search-box-font-size: 18px
+$search-box-font-size: 15px
 
-$search-box-color: #AAAAAA
-$search-box-placeholder: rgba(84, 84, 84, .7)
+$search-box-color: $greenDark
+$search-box-placeholder: $green
 $search-box-bg: #f7f7f7
 
 // Toc
@@ -105,7 +106,8 @@ $post-hr-color: darken($post-bg, 5%)
 
 $post-share-bg: darken($post-bg, 1%)
 $post-share-color: $post-meta-color
-$post-share-hover-color: $gradient-end
+$post-share-fontSize: 30px
+$post-share-hover-color: $green
 
 
 // # Footer (copyright)
@@ -149,7 +151,7 @@ $nprogress-color: red
 $time-function: cubic-bezier(0.770, 0.000, 0.175, 1.000)
 
 // @import
-
+@import 'reset'
 @import '01-animation'
 @import '02-icon'
 @import '03-base'
