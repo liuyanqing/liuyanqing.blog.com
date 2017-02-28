@@ -18,9 +18,9 @@ avatar: /assets/img/avatar.png
 favicon: /assets/icon/favicon.ico
 
 # google analytics config
-#ga:
-  #id: UA-54767140-1
-  #url: yansu.org
+ga:
+  id: UA-92779647-1
+  url: liuyanqing.github.io
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
