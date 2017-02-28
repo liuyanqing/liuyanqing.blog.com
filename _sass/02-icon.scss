@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont';  /* project id 240016 */
-  src: url('//at.alicdn.com/t/font_ig0rcxy56ucba9k9.eot');
-  src: url('//at.alicdn.com/t/font_ig0rcxy56ucba9k9.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_ig0rcxy56ucba9k9.woff') format('woff'),
-  url('//at.alicdn.com/t/font_ig0rcxy56ucba9k9.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_ig0rcxy56ucba9k9.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_bqg3cq9q2e3o9a4i.eot');
+  src: url('//at.alicdn.com/t/font_bqg3cq9q2e3o9a4i.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_bqg3cq9q2e3o9a4i.woff') format('woff'),
+  url('//at.alicdn.com/t/font_bqg3cq9q2e3o9a4i.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_bqg3cq9q2e3o9a4i.svg#iconfont') format('svg');
 }
 
 %icon {
@@ -46,6 +46,9 @@
 }
 %icon-expand {
   content: "\e6a7";
+}
+%icon-shrink {
+  content: "\ebc7";
 }
 %icon-list {
   content: "\e6e7";

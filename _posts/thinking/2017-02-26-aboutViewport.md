@@ -30,12 +30,13 @@ description: 关于Viewport
 * 说明：度量的宽度和高度是包括滚动条的。它们也被视为内部窗口的一部分。
 
 ## 3 滚动距离
-    window.pageX/YOffset
+    window.pageX/YOffset( == scrollX/Y )
 
 * 意义：页面滚动的距离。
 * 度量单位：CSS像素。
 * 浏览器错误：无。
-* 说明：包含了文档水平和垂直方向的滚动距离。
+* 说明：返回相对于窗口显示区左边缘（上边缘）的水平方向（垂直方向）的距离，表示文档水平或垂直方向的滚动距离。
+
 ## 4 度量viewport
     document.documentElement.clientWidth/Height
 
@@ -59,12 +60,10 @@ description: 关于Viewport
 * `screenX/Y`提供了相对于屏幕的以设备像素进行度量的坐标。
 
 ## 6 媒体查询的`width/height` & `width/height`
-
 * `width/height`使用和`documentElement .clientWidth/Height`（换句话说就是viewport宽高）一样的值。它是工作在CSS像素下的。
 * `device-width/device-height`使用和`screen.width/height`（换句话说就是屏幕的宽高）一样的值。它工作在设备像素下面。
 
 ## 二 visual viewport & layout viewport
-
    把`layout viewport`想像成为一张不会变更大小或者形状的大图。现在想像你有一个小一些的框架，你通过它来看这张大图。这个小框架的周围被不透明的材料所环绕，这掩盖了你所有的视线，只留这张大图的一部分给你。你通过这个框架所能看到的大图的部分就是`visual viewport`。当你保持框架（缩小）来看整个图片的时候，你可以不用管大图，或者你可以靠近一些（放大）只看局部。你也可以改变框架的方向，但是大图（layout viewport）的大小和形状永远不会变。
 
    `visual viewport` 是页面当前显示在屏幕上的部分。用户可以通过滚动来改变他所看到的页面的部分，或者通过缩放来改变visual viewport的大小。
