@@ -43,7 +43,7 @@ description: 关于Viewport
 * 意义：Viewport尺寸。
 * 度量单位：CSS像素。
 * 浏览器错误：无。
-* 说明：用来约束你网站中最顶级包含块元素（containing block）`<html>`的。与`window.innerWidth/Height`是对冤家（浏览器战争的产物，那时Netscape只支持window.innerWidth/Height，IE只支持document.documentElement.clientWidth和Height），后者也被视为内部窗口的一部分。区别是`document.documentElement.clientWidth/Height`不包括滚动条。
+* 说明：用来约束你网站中最顶级包含块元素（containing block）`<html>`的。与`window.innerWidth/Height`是对冤家（浏览器战争的产物，那时Netscape只支持window.innerWidth/Height，IE只支持document.documentElement.clientWidth和Height），后者也被视为内部窗口的一部分。区别是document.documentElement.clientWidth/Height不包括滚动条。
 
 ## 5 度量`<html>`元素
     document.documentElement.offsetWidth/Height
