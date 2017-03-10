@@ -15,6 +15,7 @@ description: Sublime Text使用总结
 * AutoFileName
 * Bracket Highlighter
 * Doc​Blockr
+* FileDiffs
 
 * JSFormat
 
@@ -22,4 +23,5 @@ description: Sublime Text使用总结
 
 
 * MarkDown Editing
+* MarkDown Preview
 
