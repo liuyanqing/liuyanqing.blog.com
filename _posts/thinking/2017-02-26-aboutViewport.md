@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于Viewport
-category: 学习总结
+category: 学习笔记
 tags: viewport
 description: 关于Viewport
 ---
