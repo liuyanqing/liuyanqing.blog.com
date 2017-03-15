@@ -12,5 +12,5 @@ description: Redux Saga学习笔记
 
 ## 2 `takeEvery`
 
-# 参考教程
+## 参考教程
 * 1、[Redux-Saga中文教程](http://leonshi.com/redux-saga-in-chinese/)

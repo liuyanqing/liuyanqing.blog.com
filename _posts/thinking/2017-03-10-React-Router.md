@@ -20,3 +20,6 @@ description: React Router学习笔记
 
 ### 3 优先级
 路由算法会根据定义的顺序自顶向下匹配路由
+
+## 参考教程
+* 1、[Redux-Router中文教程](https://react-guide.github.io/react-router-cn/)
