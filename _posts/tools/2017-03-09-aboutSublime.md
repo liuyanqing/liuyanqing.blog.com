@@ -19,7 +19,7 @@ description: Sublime Text使用总结
 * SideBarEnhancements
 
 * JSFormat
-  快捷键：`Ctrl + Alt + f`)
+  快捷键：`Ctrl + Alt + f`
 * Babel
 
 * ColorPicker
