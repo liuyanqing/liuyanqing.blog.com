@@ -16,12 +16,34 @@ description: Sublime Text使用总结
 * Bracket Highlighter
 * Doc​Blockr
 * FileDiffs
+* SideBarEnhancements
 
 * JSFormat
+* Babel
 
 * ColorPicker
 
 
 * MarkDown Editing
 * MarkDown Preview
+
+## 我的设置
+    {
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    "font_size": 15,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "save_on_focus_lost": true,
+    "highlight_line": true,
+    "show_encoding": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": false,
+    "bold_folder_labels": true,
+    "show_full_path": true,
+    "show_line_endings": true
+}
 
