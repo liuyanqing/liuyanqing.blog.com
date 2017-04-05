@@ -39,6 +39,7 @@ description: Sublime Text使用总结
         "translate_tabs_to_spaces": true,//把代码 tab 对齐转换为空格对齐
         "tab_size": 4, //空格数
         "save_on_focus_lost": true, //文件失去焦点自动保存
+        "highlight_modified_tabs": true, //未保存的文件标签高亮
         "highlight_line": true, // 当前行标亮
         "show_encoding": true, //显示当前文件的编码
         "trim_trailing_white_space_on_save": true, //去掉每一行文本最后面的空格
@@ -48,6 +49,11 @@ description: Sublime Text使用总结
         "show_line_endings": true,
         "fade_fold_buttons": false, //显示代码块的倒三角
         "word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",//双击选中中划线
+        "rulers":
+        [
+          80,
+          100
+        ]
     }
 
 ## 有用快捷键
