@@ -10,13 +10,16 @@ description: Sublime Text使用总结
 ## 个人常用插件标配
 [Package Control安装点这里](https://packagecontrol.io/installation)
 
-* Emmet
+* [Emmet](https://packagecontrol.io/packages/Emmet)
 * ConvertToUTF8
 * AutoFileName
 * Bracket Highlighter
 * Doc​Blockr
 * FileDiffs
 * SideBarEnhancements
+* [CodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
+* [Modific](https://github.com/gornostal/Modific)
+      按Ctrl + Alt + D来查看或比较当前的代码与最近提交的代码之间的区别
 
 * JSFormat
   快捷键：`Ctrl + Alt + f`
