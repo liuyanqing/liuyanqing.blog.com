@@ -24,9 +24,9 @@ description: Sublime Text使用总结
 * JSFormat
   快捷键：`Ctrl + Alt + f`
 * Babel
+* SublimeTmpl
 
 * ColorPicker
-
 
 * MarkDown Editing
 * MarkDown Preview
