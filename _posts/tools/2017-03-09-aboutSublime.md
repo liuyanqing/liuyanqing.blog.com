@@ -35,6 +35,7 @@ description: Sublime Text使用总结
     {
         "bold_folder_labels": true,
         "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+        "dpi_scale": 1.0,
         "fade_fold_buttons": false,
         "font_size": 16,
         "ha_style": "filled",
