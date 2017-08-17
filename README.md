@@ -8,6 +8,7 @@
 #### 本地开发[Jekyll](http://jekyllcn.com)环境配置(Windows)
 * [Chocolatey](https://chocolatey.org/install)
 * Ruby
+
       choco install ruby -version 2.2.4
       choco install ruby2.devkit
 
