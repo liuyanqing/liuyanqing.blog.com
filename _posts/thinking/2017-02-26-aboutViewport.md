@@ -7,12 +7,12 @@ description: 关于Viewport
 ---
 
 # viewport
-    viewport，实际上等于浏览器窗口
+    viewport，等于浏览器窗口
 
-## 一 物理像素 & 独立像素（CSS像素）
-`物理像素`:你所使用的各种设备都提供了正规的分辨率，并且其值可以（通常情况下）从screen.width/height属性中读出。
-`独立像素`:又称`CSS像素`、`逻辑像素`、`密度无关像素`，是那些控制你的样式表如何渲染的像素。
-设备物理像素 = 设备独立像素 * dpr
+## 一 物理像素 & 设备独立像素
+`物理像素`:又称`设备像素`，是显示设备中一个最微小的物理部件。你所使用的各种设备都提供了正规的分辨率，并且其值可以（通常情况下）从`screen.width/height`属性中读出。
+`设备独立像素`:又称`CSS像素`、`逻辑像素`、`密度无关像素`，是那些控制你的样式表如何渲染的像素。
+物理像素 = 设备独立像素 * dpr
 
 ## 1 屏幕尺寸
     screen.width/height
@@ -64,7 +64,7 @@ description: 关于Viewport
 * `width/height`使用和`documentElement .clientWidth/Height`（换句话说就是viewport宽高）一样的值。它是工作在CSS像素下的。
 * `device-width/device-height`使用和`screen.width/height`（换句话说就是屏幕的宽高）一样的值。它工作在设备像素下面。
 
-## 二 visual viewport & layout viewport
+## 二 移动设备的visual viewport & layout viewport 
    把`layout viewport`想像成为一张不会变更大小或者形状的大图。现在想像你有一个小一些的框架，你通过它来看这张大图。这个小框架的周围被不透明的材料所环绕，这掩盖了你所有的视线，只留这张大图的一部分给你。你通过这个框架所能看到的大图的部分就是`visual viewport`。当你保持框架（缩小）来看整个图片的时候，你可以不用管大图，或者你可以靠近一些（放大）只看局部。你也可以改变框架的方向，但是大图（layout viewport）的大小和形状永远不会变。
 
    `visual viewport` 是页面当前显示在屏幕上的部分。用户可以通过滚动来改变他所看到的页面的部分，或者通过缩放来改变visual viewport的大小。
