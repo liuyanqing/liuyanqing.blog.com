@@ -4,7 +4,7 @@ email: 18679856929@163.com
 description: > # this means to ignore newlines until "baseurl:"
   刘彦青的博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://liuyanqing.blog.com # the base hostname & protocol for your site
+url: https://liuyanqing.github.io # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 author: Liu Yanqing
 github: liuyanqing
@@ -20,7 +20,7 @@ favicon: /assets/icon/favicon.ico
 # google analytics config
 ga:
   id: UA-92779647-1
-  url: liuyanqing.blog.com
+  url: liuyanqing.github.io
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
