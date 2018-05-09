@@ -1,6 +1,6 @@
 ### 我的博客
 
-地址：[https://liuyanqing.github.io](https://liuyanqing.github.io)
+地址：[https://liuyanqing.blog.com](https://liuyanqing.blog.com)
 
 ### 说明
     fork form suyan/suyan.github.io
