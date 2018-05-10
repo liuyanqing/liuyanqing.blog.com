@@ -1,0 +1,166 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8"
+
+
+// # Breakpoints
+$breakpoint-hide-sidebar: 1024px
+$breakpoint-mobile: 767px
+
+// # Font
+$font: "Microsoft Yahei",Helvetica,arial
+
+// # color
+$greenLight: #f2f6f7
+$green: #58b471
+$greenDark: #45b331
+$greyLight: #505e74
+$grey: #474d57
+$greyDark: #2b3341
+
+// # Sidebar Background Gradient
+$gradient-start: #C2E987
+$gradient-end:   #309E85
+// $sidebar-bg: linear-gradient(136deg, $gradient-start, $gradient-end)
+
+$sidebar-bg: $grey
+$sidebar-left-bg: $grey
+$sidebar-right-bg: $greenLight
+
+// # Sidebar Left
+$sidebar-left-width: 120px
+
+// Avatar
+$avatar-size: 90px
+$avatar-border-size: 4px
+$avatar-border-color: rgba(255, 255, 255, .75)
+
+// Social icons
+$social-icon-outer-padding: 10px
+$social-icon-size: 22px
+$social-icon-margin: 1px
+$social-icon-color: rgba(255, 255, 255, .6)
+$social-icon-hover-color: #FFF
+
+// Tags
+$tag-height: 40px
+$tag-font-size: 16px
+$tag-color: rgba(255, 255, 255, .7)
+$tag-hover-color: rgba(255, 255, 255, .85)
+$tag-active-color: $green
+$tag-border-color: $greyLight
+
+// # Sidebar Right
+$sidebar-right-width: 360px
+
+// Search
+$search-box-height: 64px
+$search-box-font-size: 15px
+
+$search-box-color: $greenDark
+$search-box-placeholder: $green
+$search-box-bg: #f7f7f7
+
+// Toc
+$toc-color: #55606F
+
+$toc-font-size: 16px
+$toc-line-height: 26px
+
+$toc-bullet-size: 18px
+$toc-bullet-unread: $grey
+$toc-bullet-read: $green
+
+// # Sidebar width
+$sidebar-width: $sidebar-left-width + $sidebar-right-width
+
+// # Post
+$post-max-width: 800px
+$post-width-at-3-columns: 80%
+$post-width-at-1-column: 720px
+
+$post-meta-color: #BCC1C4
+
+$post-title-color: #283444
+$post-text-color: #283444
+$post-link-color: lighten($post-text-color, 20%)
+$post-link-hover-color: $gradient-end
+
+$post-bg: #FFFFFF
+
+$post-img-border-color: darken($post-bg, 4%)
+$post-img-border-width: 4px
+
+$post-code-inline-color: lighten($post-text-color, 10%)
+$post-code-inline-bg: darken($post-bg, 10%)
+$post-code-font: 'Droid Sans Mono', monospace
+
+$post-code-block-bg: #282a36
+
+$post-font-size: 18px
+$post-line-height: 1.6
+$post-paragraph-spacing: 30px
+
+$post-hr-color: darken($post-bg, 5%)
+
+$post-share-bg: darken($post-bg, 1%)
+$post-share-color: $post-meta-color
+$post-share-fontSize: 30px
+$post-share-hover-color: $green
+
+
+// # Footer (copyright)
+
+$footer-color: $post-meta-color
+$footer-link-hover-color: $gradient-end
+
+$footer-font-size: 14px
+$footer-line-height: 20px
+
+
+
+// # Menu button position
+
+$menu-top: 20px
+$menu-right: 30px
+$menu-size: 42px
+
+// # post toc
+$post-toc-width: 200px
+$post-toc-bg: $greenLight
+$post-toc-border-color: #e5e8ec
+$post-toc-title-color: #2C353D
+$post-toc-li-color: #7D8B99
+$post-toc-hover-color: #2EB695
+
+// # Customise webkit scrollbar
+
+$toc-scrollbar-width: 3px
+$toc-scrollbar-color: $gradient-end
+
+$code-scrollbar-height: 7px
+$code-scrollbar-color: $post-meta-color
+
+// # NProgerss
+
+$nprogress-height: 3px
+$nprogress-color: red
+
+// # Time function
+$time-function: cubic-bezier(0.770, 0.000, 0.175, 1.000)
+
+// @import
+@import 'reset'
+@import '01-animation'
+@import '02-icon'
+@import '03-base'
+@import '04-sidebar'
+@import '05-post'
+@import '06-menu'
+@import '07-nprogress'
+@import '08-code'
+@import '09-page'
+@import '10-posttoc'
+@import 'a-smallscreen'
+@import 'b-mobile'

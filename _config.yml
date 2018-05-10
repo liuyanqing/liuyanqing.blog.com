@@ -1,0 +1,42 @@
+# Site settings
+title: 刘彦青的博客
+email: 18679856929@163.com
+description: > # this means to ignore newlines until "baseurl:"
+  刘彦青的博客
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: https://liuyanqing.github.io # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: Liu Yanqing
+github: liuyanqing
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# avatar and Favicon
+avatar: /assets/img/avatar.png
+favicon: /assets/icon/favicon.ico
+
+# google analytics config
+ga:
+  id: UA-92779647-1
+  url: liuyanqing.github.io
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+
+theme: jekyll-theme-cayman
