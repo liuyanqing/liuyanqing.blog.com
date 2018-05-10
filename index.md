@@ -6,5 +6,5 @@ date: 2017-02-28
 
 ## 博客前言
 
-小前端的修炼笔记。
+Hello,world of Front-end.
 
