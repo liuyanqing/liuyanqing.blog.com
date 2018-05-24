@@ -7,7 +7,7 @@ description: Javascript中的this指向
 ---
 
 # Javascript中的this指向
-## 函数调用
+## 一、函数调用
 非箭头函数内，this 指向函数运行时调用它的对象。
 箭头函数内，this 指向定义时所在的对象。
 ### （1）全局性调用的函数内 —— this 指向全局性对象 window
@@ -38,7 +38,7 @@ description: Javascript中的this指向
     var id = 21
     foo() // 42
 
-## 构造函数内 —— this 指向实例对象
+## 二、构造函数内 —— this 指向实例对象
     var x = 2
     function test() {
       this.x = 1
@@ -46,10 +46,10 @@ description: Javascript中的this指向
     var o = new test()
     console.log(o.x) // 1
 
-### ES6 的 class
+### （1）ES6 的 class
 ES6 的类即构造函数的封装，完全可以看作构造函数的另一种写法。因此，类的方法内部如果含有`this`，它默认指向类的实例。
 
-## 函数方法调用函数
+## 3、函数方法调用函数
 ### apply() & call() 
 先把`apply()`MDN文档定义搬运过来：
 

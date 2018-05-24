@@ -44,7 +44,7 @@ description: Sublime Text使用总结
             "Vintage"
         ],
         "translate_tabs_to_spaces": true,//把代码 tab 对齐转换为空格对齐
-        "tab_size": 4, //空格数
+        "tab_size": 2, //空格数
         "save_on_focus_lost": true, //文件失去焦点自动保存
         "highlight_modified_tabs": true, //未保存的文件标签高亮
         "highlight_line": true, // 当前行标亮
