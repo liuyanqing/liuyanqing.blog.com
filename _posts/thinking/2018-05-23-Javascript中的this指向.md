@@ -9,6 +9,7 @@ description: Javascript中的this指向
 # Javascript中的this指向
 ## 一、函数调用
 非箭头函数内，this 指向函数运行时调用它的对象。
+
 箭头函数内，this 指向定义时所在的对象。
 ### （1）全局性调用的函数内 —— this 指向全局性对象 window
     // code 例子
