@@ -19,9 +19,11 @@ description: Sublime Text使用总结
 * SideBarEnhancements
 * [CodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
 * [Modific](https://github.com/gornostal/Modific)
-      按Ctrl + Alt + D来查看或比较当前的代码与最近提交的代码之间的区别
+
+    按Ctrl + Alt + D来查看或比较当前的代码与最近提交的代码之间的区别
 
 * JSFormat
+
   快捷键：`Ctrl + Alt + f`
 * Babel
 * SublimeTmpl
