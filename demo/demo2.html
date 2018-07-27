@@ -4,31 +4,28 @@
   <title>demo</title>
 </head>
 <style type="text/css">
-  .p1,.p2 {
-
+  .container {
+    overflow: hidden;
   }
-  .p1 {
-
+  .left, .right {
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
   }
-  .p2 {
-
+  .left{
+    width: 100px;
+    float: left;
+    background-color: blue;
   }
-  .child1, .child2 {
-
-  }
-  .child1 {
-
-  }
-  .child2 {
-
+  .right{
+    width: 100px;
+    float: right;
+    background-color: pink;
   }
 </style>
 <body>
-<div class="p1">
-  <div class="child1"></div>
-</div>
-<div class="p2">
-  <div class="child2"></div>
+<div class="container">
+  <div class="left">左侧文字比较少</div>
+  <div class="right">右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多右侧文字比较多</div>
 </div>
 </body>
 </html>
