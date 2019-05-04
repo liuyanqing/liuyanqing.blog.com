@@ -1,19 +1,23 @@
-### 我的博客
+# 我的博客
 
 地址：[https://liuyanqing.github.io](https://liuyanqing.github.io)
 
-### 说明
-    fork form suyan/suyan.github.io
+## 说明
 
-#### 本地开发[Jekyll](http://jekyllcn.com)环境配置(Windows)
-* [Chocolatey](https://chocolatey.org/install)
-* Ruby
+    fork from suyan/suyan.github.io
 
-      choco install ruby -version 2.2.4
-      choco install ruby2.devkit
+## 本地开发[Jekyll](https://jekyllrb.com/)环境配置
 
-* [RubyGems](https://rubygems.org/pages/download#formats)
-* NodeJS, 或其他 JavaScript 运行环境（Jekyll 2 或更早版本需要 CoffeeScript 支持）。
+### 安装插件
 
-#### [参考安装](http://jekyllcn.com/docs/installation/)
+    gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
 
+### [参考安装Jekyll](https://jekyllrb.com/docs/installation/)
+
+### 启动服务
+
+      jekyll serve
+
+### 功能说明
+
+* 侧边栏的搜索框支持搜索本博客内的文章标题
