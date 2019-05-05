@@ -98,24 +98,24 @@
       if (filter === 'recent') {
         toc.slice(0, {{ site.recent_num }}).fadeIn(350);
       } else {
-        $('.toc-link[data-tags~=' + filter + ']').fadeIn(350);
-      }
-    } 
-    // Tags Filter
-    $('#sidebar-tags').on('click', '.sidebar-tag', function () {
-      filters = $(this).data('filter');
-      toc.hide();
-      tocLinkDisplay(filters)
-      $(this).addClass('active').siblings().removeClass('active');
-    });
+  $('.toc-link[data-tags~=' + filter + ']').fadeIn(350);
+}
+    }
+// Tags Filter
+$('#sidebar-tags').on('click', '.sidebar-tag', function () {
+  filters = $(this).data('filter');
+  toc.hide();
+  tocLinkDisplay(filters)
+  $(this).addClass('active').siblings().removeClass('active');
+});
 
 $('#search-input').on('input', function (e) {
+  toc.hide();
   if (!e || !e.target.value) {
     tocLinkDisplay(filters)
     return
   }
   const val = e.target.value
-  toc.hide();
   $('.toc-link[data-title*=' + val + ']').fadeIn(350);
 })
 
