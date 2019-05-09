@@ -31,8 +31,9 @@ layout: default
 </div>
 
 <script>
+  var url = location.href;
   var gitalk = new Gitalk({
-    id: '{{ window.location.href }}'.substring(0, 48),
+    id: url.substring(0, 48),
     clientID: '{{ site.comment.gitalk_clientId }}',
     clientSecret: '{{ site.comment.gitalk_clientSecret }}',
     repo: '{{ site.comment.gitalk_repo }}',
