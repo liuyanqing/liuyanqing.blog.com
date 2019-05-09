@@ -17,7 +17,7 @@
   ga('send', 'pageview');
 
   var gitalk = new Gitalk({
-    id: window.location.pathname,
+    id: "<%= url %>".substring(0, 48),
     clientID: '{{ site.comment.gitalk_clientId }}',
     clientSecret: '{{ site.comment.gitalk_clientSecret }}',
     repo: '{{ site.comment.gitalk_repo }}',
