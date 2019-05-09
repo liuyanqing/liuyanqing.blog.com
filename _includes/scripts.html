@@ -15,5 +15,16 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-92779647-1', 'auto');
   ga('send', 'pageview');
+
+  var gitalk = new Gitalk({
+    id: window.location.pathname,
+    clientID: '{{ site.comment.gitalk_clientId }}',
+    clientSecret: '{{ site.comment.gitalk_clientSecret }}',
+    repo: '{{ site.comment.gitalk_repo }}',
+    owner: '{{ site.comment.github_username }}',
+    admin: ['{{ site.comment.github_username }}'],
+    distractionFreeMode: false,
+  });
+  gitalk.render('gitalk-container');
 </script>
 {% endif %}

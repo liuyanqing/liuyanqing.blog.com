@@ -31,6 +31,13 @@ mathjax: disabled
 sass:
   style: compressed
 
+# Gitalk settings
+comment:
+  gitalk_clientId: af0a4c868ac06d9edaf6
+  gitalk_clientSecret: 77c7bdc3c814059221872c7b1aa5c6b724db3a28
+  gitalk_repo: liuyanqing.github.io
+  github_username: liuyanqing
+
 # Jekyll Plugin
 # https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
 plugins:
@@ -39,12 +46,11 @@ plugins:
   - jekyll-feed
 
 kramdown:
-  auto_ids          : true
-  entity_output     : as_char
-  toc_levels        : 1..6
-  smart_quotes      : lsquo,rsquo,ldquo,rdquo
-  input             : GFM
-  hard_wrap         : false
-  footnote_nr       : 1
-  show_warnings     : false
-  
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+  show_warnings: false
