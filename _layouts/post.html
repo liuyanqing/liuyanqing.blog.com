@@ -30,6 +30,19 @@ layout: default
   </div>
 </div>
 
+<script>
+  var gitalk = new Gitalk({
+    id: '<%= url %>'.substring(0, 48),
+    clientID: '{{ site.comment.gitalk_clientId }}',
+    clientSecret: '{{ site.comment.gitalk_clientSecret }}',
+    repo: '{{ site.comment.gitalk_repo }}',
+    owner: '{{ site.comment.github_username }}',
+    admin: ['{{ site.comment.github_username }}'],
+    distractionFreeMode: false,
+  });
+  gitalk.render('gitalk-container');
+</script>
+
 {% if site.disqus.shortname %}
 <div class="comment container">
   <div id="disqus_thread"></div>
