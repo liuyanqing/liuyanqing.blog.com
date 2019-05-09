@@ -12,7 +12,7 @@
 
     gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
 
-### [参考安装Jekyll](https://jekyllrb.com/docs/installation/)
+### [参考安装 Jekyll](https://jekyllrb.com/docs/installation/)
 
 ### 启动服务
 
@@ -20,4 +20,5 @@
 
 ### 功能说明
 
-* 侧边栏的搜索框支持搜索本博客内的文章标题
+- 侧边栏的搜索框支持搜索本博客内的文章标题
+- 添加 Gitalk 评论系统（2019-05-09）
