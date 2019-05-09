@@ -32,7 +32,7 @@ layout: default
 
 <script>
   var gitalk = new Gitalk({
-    id: '<%= url %>'.substring(0, 48),
+    id: '{{ window.location.href }}'.substring(0, 48),
     clientID: '{{ site.comment.gitalk_clientId }}',
     clientSecret: '{{ site.comment.gitalk_clientSecret }}',
     repo: '{{ site.comment.gitalk_repo }}',
