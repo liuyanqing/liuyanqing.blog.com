@@ -6,34 +6,38 @@ tags: Sublime Text
 description: Sublime Text使用总结
 ---
 
-# 个人Sublime Text使用总结
+# 个人 Sublime Text 使用总结
+
 ## 个人常用插件标配
-[Package Control安装点这里](https://packagecontrol.io/installation)
 
-* [Emmet](https://packagecontrol.io/packages/Emmet)
-* ConvertToUTF8
-* AutoFileName
-* Bracket Highlighter
-* Doc​Blockr
-* FileDiffs
-* SideBarEnhancements
-* [CodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
-* [Modific](https://github.com/gornostal/Modific)
+[Package Control 安装点这里](https://packagecontrol.io/installation)
 
-    按Ctrl + Alt + D来查看或比较当前的代码与最近提交的代码之间的区别
+- [Emmet](https://packagecontrol.io/packages/Emmet)
+- ConvertToUTF8
+- AutoFileName
+- Bracket Highlighter
+- Doc​Blockr
+- FileDiffs
+- SideBarEnhancements
+- [CodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
+- [Modific](https://github.com/gornostal/Modific)
 
-* JSFormat
+  按 Ctrl + Alt + D 来查看或比较当前的代码与最近提交的代码之间的区别
+
+- JSFormat
 
   快捷键：`Ctrl + Alt + f`
-* Babel
-* SublimeTmpl
 
-* ColorPicker
+- Babel
+- SublimeTmpl
 
-* MarkDown Editing
-* MarkDown Preview
+- ColorPicker
+
+- MarkDown Editing
+- MarkDown Preview
 
 ## 我的设置
+
     {
         "bold_folder_labels": true,
         "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
@@ -66,16 +70,16 @@ description: Sublime Text使用总结
     }
 
 ## 有用快捷键
-1. `Ctrl+P`——随意跳转
-在输入栏输入，ST则会 对已经打开的文件或者目录进行搜索，并给出匹配最佳的搜索结果的预览。如果你不进行任何操作，将不会真正加载这些文件。可以进行后续输入以跳转到更精确的位置。
 
-    `@` 符号跳转：输入@symbol跳转到symbol符号所在的位置。与`Ctrl+R`功能相同。
-    `#` 关键字跳转：输入#keyword跳转到keyword所在的位置。与`Ctrl+;`功能相同。
-    `:` 行号跳转：输入:12跳转到文件的第12行。与`Ctrl+G`功能相同。
+1.  `Ctrl+P`——随意跳转
+    在输入栏输入，ST 则会 对已经打开的文件或者目录进行搜索，并给出匹配最佳的搜索结果的预览。如果你不进行任何操作，将不会真正加载这些文件。可以进行后续输入以跳转到更精确的位置。
 
-2. `Ctrl+R`——定位函数
-3. `Ctrl+Shift+L`——同时编辑多行
-4. `Ctrl + J`——把当前选中区域合并为一行
-5. `Ctrl + Enter`——在当前行下面新增一行然后跳至该行
-6. `Ctrl + Shift + Enter`——在当前行上面增加一行并跳至该行
+        `@` 符号跳转：输入@symbol跳转到symbol符号所在的位置。与`Ctrl+R`功能相同。
+        `#` 关键字跳转：输入#keyword跳转到keyword所在的位置。与`Ctrl+;`功能相同。
+        `:` 行号跳转：输入:12跳转到文件的第12行。与`Ctrl+G`功能相同。
 
+2.  `Ctrl+R`——定位函数
+3.  `Ctrl+Shift+L`——同时编辑多行
+4.  `Ctrl + J`——把当前选中区域合并为一行
+5.  `Ctrl + Enter`——在当前行下面新增一行然后跳至该行
+6.  `Ctrl + Shift + Enter`——在当前行上面增加一行并跳至该行

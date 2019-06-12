@@ -7,10 +7,13 @@ description: React Router学习笔记
 ---
 
 # React Router
+
 ## 路由匹配原理
+
 ### 1 嵌套关系
 
 ### 2 路径语法
+
 ```
 `:paramName` – 匹配一段位于 /、? 或 # 之后的 URL。 命中的部分将被作为一个参数
 () – 在它内部的内容被认为是可选的
@@ -19,7 +22,9 @@ description: React Router学习笔记
 ```
 
 ### 3 优先级
+
 路由算法会根据定义的顺序自顶向下匹配路由
 
 ## 参考教程
-* 1、[Redux-Router中文教程](https://react-guide.github.io/react-router-cn/)
+
+- 1、[Redux-Router 中文教程](https://react-guide.github.io/react-router-cn/)
